@@ -49,7 +49,7 @@ rm -rf build
 mkdir build
 cmake -B build
 
-build-wrapper-linux-x86-64 --out-dir bw-output  cmake --build build/ --config Release
+build-wrapper-linux-aarch64 --out-dir bw-output  cmake --build build/ --config Release
 
 sonar-scanner \
   -Dsonar.organization=enzopellegrini \
